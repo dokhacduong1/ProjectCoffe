@@ -12,8 +12,17 @@ module.exports = {
       fontFamily:{
         Karla: ['Karla', 'sans-serif'],
       },
-      colors:{
-        'light-coffee': '#C89F94',
+      colors:{   
+        'coffee': {
+          200: '#C89F94',
+          300: '#b48f85',
+          400: '#8c6f68',
+          500: '#785f59',
+          600: '#50403b',
+          700: '#50403b',
+          800: '#3c302c',
+          900: '#28201e',
+        }
       },
       keyframes:{
         slideDown:{
