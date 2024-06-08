@@ -684,6 +684,14 @@ video {
   height: 21.25rem;
 }
 
+.h-\[18\.75rem\]{
+  height: 18.75rem;
+}
+
+.h-\[500px\]{
+  height: 500px;
+}
+
 .w-11\/12{
   width: 91.666667%;
 }
@@ -824,6 +832,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-slate-500{
+  --tw-bg-opacity: 1;
+  background-color: rgb(100 116 139 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-40{
   --tw-bg-opacity: 0.4;
 }
@@ -892,6 +905,18 @@ video {
   background-image: url('../images/banner.jpg');
 }
 
+.bg-\[url\(\'\.\.\/images\/life01\.jpg\'\)\]{
+  background-image: url('../images/life01.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/life02\.jpg\'\)\]{
+  background-image: url('../images/life02.jpg');
+}
+
+.bg-\[url\(\'\.\.\/images\/life03\.jpg\'\)\]{
+  background-image: url('../images/life03.jpg');
+}
+
 .bg-cover{
   background-size: cover;
 }
@@ -951,6 +976,10 @@ video {
   padding-left: 2rem;
 }
 
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -998,6 +1027,19 @@ video {
   line-height: 1.75rem;
 }
 
+.text-2xl{
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-\[1\.23rem\]{
+  font-size: 1.23rem;
+}
+
+.text-\[13px\]{
+  font-size: 13px;
+}
+
 .\!font-bold{
   font-weight: 700 !important;
 }
@@ -1026,8 +1068,16 @@ video {
   line-height: 1.75rem;
 }
 
+.leading-5{
+  line-height: 1.25rem;
+}
+
 .tracking-widest{
   letter-spacing: 0.1em;
+}
+
+.-tracking-widest{
+  letter-spacing: -0.1em;
 }
 
 .text-coffee-200{
